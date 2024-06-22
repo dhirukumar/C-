@@ -69,6 +69,39 @@ a = 10 // in this place we dont need to write the datatype because it a dynamica
 
 print(a)
 
+# day 3
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    int a=10;
+    
+  string b="ddddd";
+    
+  bool c=20;
+  
+  double d =10.22;
+  
+  char e='d';
+  
+  cout<<a<<endl<<b<<endl<<c<<endl<<d<<endl<<e<<endl;
+  
+  cout<<sizeof(int)<< " bytes"<<endl;
+  
+   cout<<sizeof(string)<< " bytes"<<endl;
+   
+   cout<<sizeof(bool)<< " bytes"<<endl;
+   
+  cout<<sizeof(double)<< " bytes"<<endl;
+  
+  cout<<sizeof(char)<< " bytes"<<endl;
+    }
+
+
 
 
 
