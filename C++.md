@@ -150,7 +150,167 @@ int main(){
   
 }
 
+# day 7
 
+#include <iostream>
+
+using namespace std;
+
+
+int main(){
+
+  int a;
+    
+   cout<<"enter the number"<<endl;
+    
+  cin>>a;
+
+
+  if(a>=10){
+  
+  cout<<"dhiru";
+
+  }
+    else{
+    
+  cout<<"kalu";
+  
+   }
+}
+
+# day 8
+
+#include <iostream>
+
+using namespace std;
+
+
+int main(){
+
+  for(int a=1;a<=100;++a)
+  
+   {    cout<<a<<endl;
+   
+  }
+  
+  int a=10;
+  
+  
+  //this both code genrate same output one by for method and another is by while methode
+ 
+  while(>0){
+  
+  cout<<a;
+
+  ++a;
+
+  }
+    
+}
+
+# day 9
+
+#include <iostream>
+
+using namespace std;
+
+
+
+
+
+int main(){
+
+  int a=4,b=15;
+  
+   cout<<a+b<<endl;
+   
+   cout<<a-b<<endl;
+   
+   cout<<a*b<<endl;
+   
+   cout<<a/b<<endl;
+   
+   cout<<a%b<<endl;
+   
+   cout<<(a>b)<<endl; //IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a<b)<<endl;//IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a>=b)<<endl;//IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a<=b)<<endl;//IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a!=b)<<endl;//IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a==b)<<endl;//IT GIVES OUTPUT IN 0 OR 1 BECAUSE CONDITION IS TRUE THEN 1 ELASE 0
+   
+   cout<<(a<b && a>b)<<endl;
+   
+   cout<<(a<b || a>b)<<endl;
+   
+   cout<<!(a<b)<<endl;
+   
+   cout<<++a<<endl; //it added 1 in a=6
+   
+   cout<<a++<<endl; //it added 1 in a mean previous a so it take value of a is 6 but it printed 6  firest but in computer it mens 7
+   
+   cout<<--a<<endl; // as i say previous a is 7 it subtracte 1 from a =7-1=6
+   
+   cout<<a--<<endl; // this is same like a++ it sub but is printed previous number that 6 but in computer it is 5
+   
+   cout<<a<<endl; // for check computer value then i print a so it gives 5 as previous no
+   
+   cout<<(a>b?a:b); // in this place it show a>b or not if yea then it printed the grater number if not then it printed opposite number
+   
+   cout<<(a&b)<<endl; // if both are true by breaking the number in bits 
+   
+   cout<<(a|b)<<endl; // if one of these true by breaking the number in bits 
+   
+   cout<<(a^b)<<endl; //if both are false by breaking the number in bits 
+   
+<img width="707" alt="Screenshot 2024-06-25 at 3 26 39 PM" src="https://github.com/dhirukumar/C-/assets/146316525/d766999f-735f-48c5-b206-9687ff793137">
+
+  }
+
+# day 10
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+   for (int i=1;i<=2;++i)
+    
+  {
+    
+   cout<<"dhiru"<<endl;
+
+  }
+    
+  int  i=10;  
+  while(i>=10){ // it runs infinite 
+  
+  cout<<i<<endl;
+        
+  i++;
+        
+  }
+  do{  //if condition is true then it runs untill condition id done
+    
+  cout<<i<<endl;
+        
+ i++;
+        
+
+  }
+  while(i>11); // if condition is false then it runs only one time
+
+   }
+
+
+
+  
 
 
 
