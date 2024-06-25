@@ -101,6 +101,55 @@ int main()
   cout<<sizeof(char)<< " bytes"<<endl;
     }
 
+# day 5
+
+#include <iostream>
+
+using namespace std;
+
+#include <typeinfo>
+
+int main()
+
+{
+    int a=10;
+    
+   bool b= a;
+   
+   cout<<sizeof(b)<<endl;
+   
+   cout<<sizeof(a)<<endl;
+   
+   cout<<typeid(a).name()<<endl<<typeid(b).name();
+
+    }
+
+# day 6
+
+#include <iostream>
+
+using namespace std;
+
+
+void myfam(){  //myfam is identifier in this function
+
+  cout<<"dhiru\n";
+}
+
+int main(){  
+
+  string a="ok";  //a is idntifier 
+  
+  myfam();        //we call myfam function here
+  
+  cout<<a<<endl;
+  
+  myfam();
+  
+  myfam();
+  
+}
+
 
 
 
