@@ -308,6 +308,141 @@ int main(){
 
    }
 
+# day 11
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+   int pwd=1111;
+   
+   int mypwd;
+   
+   cout<<"enter your password";
+   
+   cin>>mypwd;
+   
+   while (mypwd>0){
+   
+  if(pwd==mypwd){
+  
+  cout<<"unlock\n";
+  
+  cout<<"welcome";   
+  
+  return 0; //also we can use break;
+  
+   }
+    
+   else{
+    
+   cout<<"your password is wrong plese enter again\n";
+   
+  cout<<"enter your password";
+  
+   cin>>mypwd;
+   
+   
+
+}
+    
+   }
+   
+ }
+
+# day 12
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+ string name;   
+ 
+ cout<<"enter your name=";
+ 
+   cin>>name;
+
+  do{
+  
+  cout<<name;
+  
+
+  }  
+  
+  while(name=="dhiru");
+   
+  }
+
+
+# day 13
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+   int num;
+   
+   cout<<"enter the number ";
+   
+   cin>>num;
+   
+   cout<<"multiplication of "<<num<<endl;
+
+   for(int i=1;i<=10;++i)
+   
+   {
+   
+   cout<<num<<"x"<<i<<"="<<num*i<<endl;
+   
+   }
+   
+  }
+
+# day 14
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+  string name;
+  
+  cout<<"enter your name=";
+  
+  cin>>name;
+
+  if(name=="kalu"){
+  
+  cout<<"you are black mava";
+  
+  }
+ if(name=="dhiru"){
+
+  cout<<"you are very good";
+  
+  }
+   
+  
+  else{
+  
+  cout<<"you are good";
+    
+  }
+
+
+ }
+
+#   day 15
+
+
+
 
 
   
