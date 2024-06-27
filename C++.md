@@ -441,6 +441,130 @@ int main(){
 
 #   day 15
 
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int a;
+    
+  cout<<"enter your amount\n";
+    
+  cin>>a;
+    
+        
+  if (a<=100000){
+    
+   cout<<"you not need to pay any tax\n";
+        
+  }
+    
+  else if (a>100000 && a<=500000){
+    
+   cout<<"you pay 5% tax="<<"tax amount="<<a*5/100;
+   
+   }
+    
+  else{
+    
+ cout<<"you pay 10% tax="<<"tax amount="<<a*10/100;
+        
+  }
+ 
+ }
+
+ # day 16
+ 
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+  int age;
+  
+  cout<<"enter your age\n";
+  
+  cin>>age;
+  
+  if(age>=18){
+  
+ if(age>=18 && age<=59){
+    
+  cout<<"you can do work\n";
+    
+  }
+    
+ else{
+    
+  cout<<"you are too old to do work\n";
+        
+  }
+
+  }
+  
+  else{
+  
+  cout<<"you are minor\n";
+    
+  }
+ 
+ }
+
+# day 17
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+ 
+ int fv,sv;
+ 
+ char sin;
+ 
+ cout<<"enter your firest number=";
+ 
+ cin>>fv;
+ 
+ cout<<"what you want";
+ 
+ cin>>sin;
+ 
+ cout<<"your second number";
+ 
+ cin>>sv;
+ 
+ switch(sin){
+ 
+  case '+':cout<<"sum of your number="<<fv+sv;
+  
+   break;
+   
+  case '-':cout<<"subtraction of your number="<<fv-sv;
+  
+  break; 
+  
+  case '*':cout<<"multiplay of your number="<<fv*sv;
+
+  
+  break; 
+  
+  case '/':cout<<"divide of your number="<<fv/sv;
+  
+  break; 
+  
+  case '%':cout<<"remander of your number="<<fv%sv;
+  
+   break;
+   
+ default;cout<<"invalid choice";
+ }
+ 
+ }
+
+
 
 
 
