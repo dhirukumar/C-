@@ -564,6 +564,190 @@ int main(){
  
  }
 
+ # day 18
+
+ #include <iostream>
+
+using namespace std;
+
+int main(){
+ 
+ for(int a=1;a<=10;++a){
+ 
+  if(a== 5){
+  
+   break;
+        
+  }
+    
+
+    
+  cout<<a<<endl;
+
+ }
+ cout<<"proggram break at 5"<<endl;
+
+ }
+
+# day 19
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+ 
+ for(int a=1;a<=10;++a){
+ 
+  if(a== 5){
+    
+   continue;
+        
+   }
+    
+   
+
+ cout<<a<<endl;
+
+ }
+
+ cout<<"proggram break at 5"<<endl;
+ 
+ }
+
+# day 20
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+ 
+ for(int a=1;a<=10;++a){
+ 
+   if(a== 5){
+    
+ goto my;
+       
+ }
+   
+   cout<<a<<endl;
+
+ }
+
+ cout<<"proggram break at 5"<<endl;
+ 
+ my:
+
+ 
+ cout<<"ok";
+ 
+ }
+
+# day 20
+#include <iostream>
+
+using namespace std;
+
+int you() {
+
+
+   int a = 10, b = 20;
+    
+ return a + b;
+    
+}
+
+int main() {
+
+   cout << you(); // Call you() function and print its return value
+    
+   return 0;
+}
+ 
+# day 21
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+  int a[5];
+    
+cout<<"enter five values";
+
+  for(int i=0;i<5;++i){
+     
+  cin>>a[i];
+              
+            
+  }
+    
+  for(int i=0;i<5;++i){
+    
+   cout<<a[i];
+   
+  }
+  
+}
+
+## reverse
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+  int a[5];
+    
+cout<<"enter five values";
+
+   for(int i=0;i<5;++i){
+        
+   cin>>a[i];
+        
+   }
+    
+  for(int i=4;i>=0;--i){
+    
+  cout<<a[i];
+        
+  }
+}
+
+# day 22
+
+#include <iostream>
+
+#include <string.h> 
+
+#include<typeinfo> //this is inportant for type and for size
+
+using namespace std;
+
+int main(){
+
+  string a="dhiru kumar";
+  
+  cout<<"origenal name="<<a<<endl;
+  
+  a.push_back('a');
+  
+   a+="singh";   //if you want to add string at end of your name
+   
+  cout<<"new name="<<a<<endl;
+  
+  a.pop_back();
+  
+  cout<<"after pop="<<a<<endl;
+  
+  cout<<typeid(a).name()<<endl;
+  
+  cout<<sizeof(a);
+  
+}
 
 
 
