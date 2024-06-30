@@ -739,7 +739,7 @@ int main(){
    
   cout<<"new name="<<a<<endl;
   
-  a.pop_back();
+  a.pop_back();  //you can not pop back more than one cher
   
   cout<<"after pop="<<a<<endl;
   
@@ -748,6 +748,57 @@ int main(){
   cout<<sizeof(a);
   
 }
+
+# day 23
+
+#include <iostream>
+
+#include <cstring> // Include <cstring> for C-style string functions
+
+#include <string>  // Include <string> for std::string
+
+using namespace std;
+
+int main() {
+
+  char str[] = "dhiru";
+    
+  char a[10];
+  
+
+ // Using C-style string functions
+    
+   cout << "Length of str: " << strlen(str) << endl;
+    
+  // Reversing a C-style string (str)
+
+  
+   strrev(); //for some resion strrev not working 
+    
+   cout << "Reversed str: " << str << endl;
+    
+   cout<<"copyed a="<<strcpy(a, str);
+   
+   int value=strcmp(a,str);  //for compare the value it return 0 or 1
+   
+   if(value==0){
+  
+   cout<<"both are equal";
+        
+ }
+    
+   else{
+    
+   cout<<"both are not equal";
+   }
+
+
+}
+
+# day 24
+
+
+
 
 
 
